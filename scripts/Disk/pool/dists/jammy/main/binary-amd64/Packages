@@ -1,0 +1,1264 @@
+Package: acipu
+Source: register-service-client
+Version: 0.2.2+jammy
+Architecture: amd64
+Maintainer: M.Angel Juan <m.angel.juan@gmail.com>
+Installed-Size: 28
+Depends: python3, systemd, openssl
+Filename: pool/main/acipu_0.2.2+jammy_amd64.deb
+Size: 5614
+MD5sum: 3f10322e13674b7d0b30abfd68e24172
+SHA1: 4e7c2cf0f4706decf2252b1ee9e599c177b53eb1
+SHA256: ee5842b06e6d59f470191f20fc0f9513541b546f5bd79783273059ba7ac66816
+Section: utils
+Priority: optional
+Homepage: http://github.com/lliurex
+Description: Ansible Client IP Updater
+ Secure client ip updater for ansible server.
+
+Package: anydesksai
+Version: 1.2.5-lliurex23
+Architecture: all
+Maintainer: Quique
+Depends: libpangox-1.0-0
+Filename: pool/main/anydesksai_1.2.5-lliurex23_all.deb
+Size: 10131080
+MD5sum: be6537b24bead0e7d4ac43f30c798711
+SHA1: 9eb1503d3bf1c318cbcf48b4c4ee22e60972e708
+SHA256: 8573d4f9b65d2ae4b969909380b251af643e3eced18d15659ae3fb961d0ab6f9
+Section: misc
+Priority: optional
+Description: AnyDesk SAI
+
+Package: chromium-common
+Source: chromium
+Version: 144.0.7559.109-2xtradeb1.2204.1+lliurex2
+Architecture: amd64
+Maintainer: Daniel Richard G. <skunk@iSKUNK.ORG>
+Installed-Size: 61663
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 4.2), libx11-6, libxcb1, libxnvctrl0, zlib1g (>= 1:1.2.11), x11-utils, xdg-utils
+Recommends: upower, udev, libgl1-mesa-dri, chromium-sandbox, fonts-liberation, notification-daemon, system-config-printer
+Breaks: chromium (<< 144.0.7559.109-2xtradeb1.2204.1+lliurex2)
+Replaces: chromium (<< 144.0.7559.109-2xtradeb1.2204.1+lliurex2)
+Filename: pool/main/chromium-common_144.0.7559.109-2xtradeb1.2204.1+lliurex2_amd64.deb
+Size: 24339002
+MD5sum: cdc76dc23f31cf85f6cc4b3f03e3c84b
+SHA1: 2b4d0d725a379e57e514d97139c5ecffd9b61e02
+SHA256: 49a18af663662f3fe941af1781606ebd0dfdafa9a78f0661fc5c1fda8280866c
+Section: web
+Priority: optional
+Homepage: http://www.chromium.org/Home
+Description: web browser - common resources used by the chromium packages
+ Web browser that aims to build a safer, faster, and more stable internet
+ browsing experience.
+ .
+ This package contains resources that are in common to different chromium
+ packages.
+Original-Maintainer: Debian Chromium Team <chromium@packages.debian.org>
+
+Package: chromium-l10n
+Source: chromium
+Version: 144.0.7559.109-2xtradeb1.2204.1+lliurex2
+Architecture: all
+Maintainer: Daniel Richard G. <skunk@iSKUNK.ORG>
+Installed-Size: 115047
+Depends: chromium-snapfree (>= 144.0.7559.109-2xtradeb1.2204.1+lliurex2), chromium-snapfree (<< 144.0.7559.109-2xtradeb1.2204.1+lliurex2.1~)
+Filename: pool/main/chromium-l10n_144.0.7559.109-2xtradeb1.2204.1+lliurex2_all.deb
+Size: 9523176
+MD5sum: aa0062cc32a8b5318c61404dfc7ca44e
+SHA1: 6a6786e9311360c22a9d7fdd9cebcf1c151f3049
+SHA256: c44756a036fa1fc607a2d67ac63fe13e38e65995bc18933e88f981076e729eec
+Section: localization
+Priority: optional
+Homepage: http://www.chromium.org/Home
+Description: web browser - language packs
+ Web browser that aims to build a safer, faster, and more stable internet
+ browsing experience.
+ .
+ This package contains language packages for:
+ am, ar, bg, bn, ca, cs, da, de, el, en-GB, es-419, es, et, fi, fil, fr, gu, he,
+ hi, hr, hu, id, it, ja, kn, ko, lt, lv, ml, mr, nb, nl, pl, pt-BR, pt-PT,
+ ro, ru, sk, sl, sr, sv, sw, ta, te, th, tr, uk, vi, zh-CN, zh-TW
+Original-Maintainer: Debian Chromium Team <chromium@packages.debian.org>
+
+Package: chromium-sandbox
+Source: chromium
+Version: 144.0.7559.109-2xtradeb1.2204.1+lliurex2
+Architecture: amd64
+Maintainer: Daniel Richard G. <skunk@iSKUNK.ORG>
+Installed-Size: 420
+Depends: libc6 (>= 2.34)
+Breaks: chromium (<< 144.0.7559.109-2xtradeb1.2204.1+lliurex2)
+Replaces: chromium (<< 144.0.7559.109-2xtradeb1.2204.1+lliurex2)
+Filename: pool/main/chromium-sandbox_144.0.7559.109-2xtradeb1.2204.1+lliurex2_amd64.deb
+Size: 164372
+MD5sum: 8b558841e56ef13a0881294bbe78dead
+SHA1: 7a0bc3399513185c6e2c8336b96133a15efd32d6
+SHA256: 83ecdc8a0cd2e1acb35eaa71aed9833c201ebc0dca9172c4ff73b14a6f6d2e42
+Section: web
+Priority: optional
+Homepage: http://www.chromium.org/Home
+Description: web browser - setuid security sandbox for chromium
+ Web browser that aims to build a safer, faster, and more stable internet
+ browsing experience.
+ .
+ This package contains the setuid chromium sandbox.
+Original-Maintainer: Debian Chromium Team <chromium@packages.debian.org>
+
+Package: chromium-snapfree
+Source: chromium
+Version: 144.0.7559.109-2xtradeb1.2204.1+lliurex2
+Architecture: amd64
+Maintainer: Daniel Richard G. <skunk@iSKUNK.ORG>
+Installed-Size: 283922
+Depends: libasound2 (>= 1.0.17), libatk-bridge2.0-0 (>= 2.5.3), libatk1.0-0 (>= 2.32.0), libatspi2.0-0 (>= 2.9.90), libc6 (>= 2.35), libcairo2 (>= 1.6.0), libcups2 (>= 1.7.0), libdav1d5 (>= 0.1.0), libdbus-1-3 (>= 1.9.14), libdouble-conversion3 (>= 2.0.0), libexpat1 (>= 2.1~beta3), libflac8 (>= 1.3.0), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.11.1), libgbm1 (>= 21.1.0), libgcc-s1 (>= 4.2), libglib2.0-0 (>= 2.39.4), libgraphite2-3 (>= 1.2.2), libjpeg8 (>= 8c), liblcms2-2 (>= 2.2+git20110628), libminizip1 (>= 1.1), libnspr4 (>= 2:4.9-2~), libnss3 (>= 2:3.30), libopenh264-6 (>= 2.2.0+dfsg), libopenjp2-7 (>= 2.2.0), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpulse0 (>= 0.99.1), libudev1 (>= 183), libx11-6, libxcb1 (>= 1.9.2), libxcomposite1 (>= 1:0.4.5), libxdamage1 (>= 1:1.1), libxext6, libxfixes3, libxkbcommon0 (>= 0.5.0), libxnvctrl0, libxrandr2, libxslt1.1 (>= 1.1.27), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.2.11), libgtk-3-0 | xdg-desktop-portal-backend, chromium-common (= 144.0.7559.109-2xtradeb1.2204.1+lliurex2), chromium-l10n
+Recommends: chromium-sandbox
+Suggests: chromium-shell, chromium-driver
+Conflicts: libgl1-mesa-swx11, libnettle4, libsecret-1-0 (<< 0.18)
+Breaks: chromium-lwn4chrome (<= 1.0-2), chromium-tt-rss-notifier (<= 0.5.2-2)
+Provides: chromium, chromium-browser, gnome-www-browser, www-browser
+Filename: pool/main/chromium-snapfree_144.0.7559.109-2xtradeb1.2204.1+lliurex2_amd64.deb
+Size: 86345732
+MD5sum: 2b08ba68eeb4d5f674029640b318d6a5
+SHA1: b8ee51651486d372ead2bc584acff4df91fcbba0
+SHA256: d20b23b9d70fb7382e34bc5eb25c891464db2de77c57db1d82858f2948bbf09e
+Section: web
+Priority: optional
+Homepage: http://www.chromium.org/Home
+Description: web browser
+ Web browser that aims to build a safer, faster, and more stable internet
+ browsing experience.
+ .
+ This package contains the web browser component.
+Original-Maintainer: Debian Chromium Team <chromium@packages.debian.org>
+
+Package: glpi-agent
+Version: 1:1.15-1
+Architecture: all
+Maintainer: Guillaume Bougard <gbougard@teclib.com>
+Installed-Size: 8370
+Depends: perl:any, ucf, libnet-cups-perl, libnet-ip-perl, libnet-ssh2-perl, libwww-perl, libparse-edid-perl, libproc-daemon-perl, libparallel-forkmanager-perl, libuniversal-require-perl, libfile-which-perl, libxml-libxml-perl, libyaml-perl, libtext-template-perl, libcpanel-json-xs-perl, libjson-pp-perl, pciutils, usbutils, libhttp-daemon-perl, libyaml-tiny-perl, libossp-uuid-perl, libdatetime-perl, libsocket-getaddrinfo-perl
+Recommends: libio-socket-ssl-perl, dmidecode, hdparm, fdisk | util-linux (<< 2.29.2-3~), net-tools
+Suggests: smartmontools, read-edid
+Filename: pool/main/glpi-agent_1%3a1.15-1_all.deb
+Size: 4232882
+MD5sum: c98f9b660bc51882c4aea6798934d7b8
+SHA1: 5ca8c8b10ccb960c30183a117965e4e6e0bd6f7a
+SHA256: f748413a8255b6084148b32b38936040ad321148a54182449239c314deebcbe6
+Section: net
+Priority: optional
+Homepage: https://glpi-project.org/
+Description: hardware and software inventory tool (client)
+ GLPI Agent is an application designed to help a network
+ or system administrator to keep track of the hardware and software
+ configurations of devices.
+ This agent can collect information about from:
+  - the local machine (Inventory)
+  - the network using SNMP
+  - an VMware ESX or vCenter server
+ The agent can be driven from different asset management software
+ including GLPI, Rudder, Uranos, OCSInventory.
+ .
+ The agent can also be used to install new software and configuration
+ changes.
+
+Package: libalgorithm-c3-perl
+Version: 0.11-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 28
+Depends: perl:any
+Filename: pool/main/libalgorithm-c3-perl_0.11-1_all.deb
+Size: 10984
+MD5sum: a0b580020fe87ee2970653b1c6754adf
+SHA1: b65e4107f7183ce873d5df8a91d0bfec3226b52a
+SHA256: 532ed1821407777459619d6424156a7fb416ae92ba6781e67c00fdb6e5624ad1
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/Algorithm-C3
+Description: Perl module for merging hierarchies using the C3 algorithm
+ The Algorithm::C3 module implements the C3 algorithm.
+ .
+ C3 is the name of an algorithm which aims to provide a sane method resolution
+ order under multiple inheritance. It was first introduced in the language
+ Dylan, and then later adopted as the preferred MRO (Method Resolution Order)
+ for the new-style classes in Python 2.3. Most recently it has been adopted as
+ the 'canonical' MRO for Perl 6 classes, and the default MRO for Parrot
+ objects as well.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libclass-c3-perl
+Version: 0.35-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 47
+Depends: perl:any, libalgorithm-c3-perl
+Recommends: libclass-c3-xs-perl
+Filename: pool/main/libclass-c3-perl_0.35-1_all.deb
+Size: 19032
+MD5sum: c3c05d687bef1ae022ce34411167a2c5
+SHA1: a0a4b4e63c3d919e7cd316d056e2bce5d6e0122c
+SHA256: d472a165310ded40014ef5a1662d065397b8598241539953c413e67bc52c4d4a
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/Class-C3
+Description: pragma for using the C3 method resolution order
+ Class::C3 is a Perl pragma that modifies the standard method resolution order
+ from depth-first left-to-right to the more sophisticated C3 method resolution
+ order.
+ .
+ The C3 algorithm aims to provide a sane method resolution order with multiple
+ inheritance. It was first introduced in the Dylan language, later adopted for
+ Python 2.3. It is also the canonical MRO implementation for Perl 6 classes
+ and is the default for Parrot objects as well.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libclass-c3-xs-perl
+Version: 0.15-1build2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 62
+Depends: perl, perlapi-5.34.0, libc6 (>= 2.34)
+Enhances: libclass-c3-perl
+Filename: pool/main/libclass-c3-xs-perl_0.15-1build2_amd64.deb
+Size: 16738
+MD5sum: 790acfc0bc37256ac3ddaca5defc3af8
+SHA1: 3df2e86f749e0b35cc89595fe5151c643dc94892
+SHA256: 3bb41a79121efe65cc20da7d85aab667630f01107119cdbc57a86fabbb4c9d22
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/Class-C3-XS
+Description: Perl module to accelerate Class::C3
+ Class::C3::XS is a Perl module designed to enhance the performance of the
+ Class::C3 package (see libclass-c3-perl). It does so automatically and is not
+ designed to be used directly; once installed, it should accelerate all programs
+ that make use of Class::C3 itself.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libclass-inspector-perl
+Version: 1.36-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 44
+Depends: perl
+Filename: pool/main/libclass-inspector-perl_1.36-1_all.deb
+Size: 16284
+MD5sum: 1f8b1ce9932bd2e77fa8a3564dfab5e4
+SHA1: 4c552f6164399985a13629016808d8f90e36414a
+SHA256: a12ff917bf9cadbcce1763f1c30fd2c35e72e0144853a3f5d3e17b631e6801c6
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/Class-Inspector
+Description: Perl module that provides information about classes
+ Class::Inspector allows you to get information about a loaded class.
+ Most or all of this information can be found in other ways, but they
+ aren't always very friendly, and usually involve a relatively high level
+ of Perl wizardry, or strange and unusual looking code. Class::Inspector
+ attempts to provide an easier, more friendly interface to this
+ information.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libclass-singleton-perl
+Version: 1.6-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 32
+Depends: perl:any
+Filename: pool/main/libclass-singleton-perl_1.6-1_all.deb
+Size: 12396
+MD5sum: 528680198d826ccbf719bc40f7f4ceb0
+SHA1: 97cdd5d62b843d59f6b845017ea71f55cf069507
+SHA256: bbd0700f8adb4c394edc37b8ca1c6aa6a8e6201cf7db8d3a60ae7ffbc4969c57
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/Class-Singleton
+Description: implementation of a "Singleton" class
+ The Class::Singleton module implements a Singleton class from which other
+ classes can be derived.  A Singleton describes an object class that can have
+ only one instance in any system.  An example of a Singleton might be a print
+ spooler or system registry.
+ .
+ By itself, the Class::Singleton module does very little other than manage the
+ instantiation of a single object.  In deriving a class from Class::Singleton,
+ your module will inherit the Singleton instantiation method and can implement
+ whatever specific functionality is required.
+ .
+ For a description and discussion of the Singleton class, see
+ "Design Patterns", Gamma et al, Addison-Wesley, 1995, ISBN 0-201-63361-2.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libdatetime-locale-perl
+Version: 1:1.33-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 19252
+Depends: perl:any, libfile-sharedir-perl, libnamespace-autoclean-perl, libparams-validationcompiler-perl, libscalar-list-utils-perl, libspecio-perl
+Filename: pool/main/libdatetime-locale-perl_1%3a1.33-1_all.deb
+Size: 2733280
+MD5sum: f484c2c0f84c107240277c15531984d9
+SHA1: 8227c4e71343374593a9b1ce613e783c9f46cffd
+SHA256: 15e84b09dda3620487153618d1be09c22f373e01f8788404400ee812be1c8a19
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/DateTime-Locale
+Description: Perl extension providing localization support for DateTime
+ DateTime::Locale extends DateTime by providing localization support. It also
+ provides some functions for getting information on available locales and is
+ easily customizable through the addition of new locales.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libdatetime-perl
+Version: 2:1.55-1build1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 281
+Depends: perl, perlapi-5.34.0, libc6 (>= 2.34), libdatetime-locale-perl, libdatetime-timezone-perl (>= 1:2.44), libnamespace-autoclean-perl, libparams-validationcompiler-perl, libspecio-perl, libtry-tiny-perl
+Filename: pool/main/libdatetime-perl_2%3a1.55-1build1_amd64.deb
+Size: 97414
+MD5sum: b02313047a0f433bc32f82e5981a5eaa
+SHA1: b22a69b6bd087186852739ba9b86f4670063f155
+SHA256: 152590d09de93aa4ba853c87db872f7567010d674adbacab67f66d0579b3a356
+Section: perl
+Priority: optional
+Multi-Arch: same
+Homepage: https://github.com/houseabsolute/DateTime.pm/wiki
+Description: module for manipulating dates, times and timestamps
+ DateTime is a Perl module which aims to provide a complete, correct, and easy
+ to use date/time object implementation. It provides an easy way to manipulate
+ dates and times, including date calculations (even addition and subtraction)
+ and provides convenient methods for extracting or modifying portions of any
+ date or time.
+ .
+ This module supports the Olson time zone database, meaning that historical
+ time zone information, and more importantly, daylight saving time rules, can
+ be handled transparently, simply by setting the correct time zone. This is
+ done by using the DateTime::TimeZone module.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libdatetime-timezone-perl
+Version: 1:2.51-1+2021e
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 6966
+Depends: perl:any, libclass-singleton-perl, libmodule-runtime-perl, libnamespace-autoclean-perl, libparams-validationcompiler-perl, libscalar-list-utils-perl, libspecio-perl, libtry-tiny-perl
+Recommends: libdatetime-perl
+Filename: pool/main/libdatetime-timezone-perl_1%3a2.51-1+2021e_all.deb
+Size: 273032
+MD5sum: a431e0f3a4dd73ce28cf1b514bd5e29f
+SHA1: da716f208b2d4bddd1afc82f316e1457e241864c
+SHA256: 4da16967e359b01c5e11bb20f682950b89a39167fddf17b5c9e20332b44df465
+Section: perl
+Priority: optional
+Homepage: http://datetime.perl.org/
+Description: framework exposing the Olson time zone database to Perl
+ DateTime::TimeZone is a Perl module framework providing an interface to the
+ Olson time zone database. It exposes the database as a set of modules, one
+ for each time zone defined, allowing for various optimizations in doing time
+ zone calculations.
+ .
+ The Olson time zone database is the best available source for worldwide time
+ zone information and is available from <URL:ftp://ftp.iana.org/tz/releases/>.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libdevel-caller-perl
+Version: 2.06-2build4
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 48
+Depends: perl, perlapi-5.34.0, libc6 (>= 2.34), libpadwalker-perl
+Filename: pool/main/libdevel-caller-perl_2.06-2build4_amd64.deb
+Size: 11118
+MD5sum: 4a7f911d7ec320426667fe62270e5db7
+SHA1: 2af183cb39345aa78596d9eed10aa603d30b4462
+SHA256: 68454ffb043622d9d26b7d6a2e9779a037459fb76cc1bcafdf9a7bcb8f7b07e2
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/Devel-Caller
+Description: module providing enhanced caller() support
+ Devel::Caller is a Perl module that provides several useful functions for
+ introspecting your code deeper than the internal function "caller()" does. It
+ allows you to access arguments passed to a function or even retrieve the code
+ reference of the subroutine being invoked at the call frame indicated by the
+ given level.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libdevel-lexalias-perl
+Version: 0.05-2build4
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 43
+Depends: perl, perlapi-5.34.0, libc6 (>= 2.34), libdevel-caller-perl
+Filename: pool/main/libdevel-lexalias-perl_0.05-2build4_amd64.deb
+Size: 9070
+MD5sum: 9d7cc29a879871a9bbb2aaa03b15c809
+SHA1: 1db3b078be8c4e1c8a209496bbfba4171ac1fb3c
+SHA256: 4f301756c2b164644f1d4d2f17fbd649d09559bdf3682190b692d22843e6aa5d
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/Devel-LexAlias
+Description: Perl module that provides alias lexical variables
+ Devel::LexAlias provides the ability to alias a lexical variable in a
+ subroutines scope to one of your choosing.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libeval-closure-perl
+Version: 0.14-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 28
+Depends: perl, libsub-exporter-perl
+Recommends: libdevel-lexalias-perl (>= 0.05)
+Filename: pool/main/libeval-closure-perl_0.14-1_all.deb
+Size: 10286
+MD5sum: b16b903f8d044f8c4ac9755f404ce219
+SHA1: f7441526406263307f7f4e569f2c69ebefe8f600
+SHA256: 2a55d26036175639ec0bbabcf76ede68edce7960aaa49f7f0668ab029b186d47
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/Eval-Closure
+Description: Perl module to safely and cleanly create closures via string eval
+ String eval is often used for dynamic code generation. For instance, Moose
+ uses it heavily, to generate inlined versions of accessors and constructors,
+ which speeds code up at runtime by a significant amount. String eval is not
+ without its issues however - it's difficult to control the scope it's used in
+ (which determines which variables are in scope inside the eval), and it can
+ be quite slow, especially if doing a large number of evals.
+ .
+ Eval::Closure attempts to solve both of those problems. It provides an
+ eval_closure function, which evals a string in a clean environment, other
+ than a fixed list of specified variables. It also caches the result of the
+ eval, so that doing repeated evals of the same source, even with a different
+ environment, will be much faster (but note that the description is part of
+ the string to be evaled, so it must also be the same (or non-existent) if
+ caching is to work properly).
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libfile-sharedir-perl
+Version: 1.118-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 47
+Depends: perl:any, libclass-inspector-perl
+Filename: pool/main/libfile-sharedir-perl_1.118-1_all.deb
+Size: 14976
+MD5sum: 525f10000c1d5c210aa88e83fcf0655e
+SHA1: 121b91475f74d2acf59a1e3f082d036ec8430c84
+SHA256: 7b034250a3c43b4d3f120caa32ffa736448d24e23134101d1b45666f4dbc3856
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/File-ShareDir
+Description: module to locate non-code files during run-time
+ The intent of File::ShareDir is to provide a companion to Class::Inspector and
+ File::HomeDir, modules that take a process that is well-known by advanced Perl
+ developers but gets a little tricky, and make it more available to the larger
+ Perl community.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libmro-compat-perl
+Version: 0.15-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 30
+Depends: perl:any, libclass-c3-perl
+Recommends: libclass-c3-xs-perl
+Filename: pool/main/libmro-compat-perl_0.15-1_all.deb
+Size: 11662
+MD5sum: c79e0efa7dd5ff016eb12961bbc7dbe8
+SHA1: 42a5c04e9e6f95d775fd94b88080c7f6600d00bd
+SHA256: 97d07804008b591b60d791c825ad22371b3503f8de8d428013b05a10e7349f2a
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/MRO-Compat
+Description: mro::* interface compatibility for Perls < 5.9.5
+ The "mro" namespace provides several utilities for dealing with method
+ resolution order and method caching in general in Perl 5.9.5 and higher.
+ .
+ MRO::Compat provides those interfaces for earlier versions of Perl
+ (back to 5.6.0 anyway).
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libnamespace-autoclean-perl
+Version: 0.29-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 33
+Depends: perl, libb-hooks-endofscope-perl, libnamespace-clean-perl, libscalar-list-utils-perl, libsub-identify-perl
+Filename: pool/main/libnamespace-autoclean-perl_0.29-1_all.deb
+Size: 12496
+MD5sum: 8bbc147aed5aae88c77e81a9861910cd
+SHA1: 8a3f79dc399045b3f5e23fa41bfa779710e91af9
+SHA256: d832430b41f33ff8aa19f2b72d1813f3376f9d7d020d77a2f92b0ba148f70c37
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/namespace-autoclean
+Description: module to remove imported symbols after compilation
+ namespace::autoclean is a Perl pragma that keeps your namespace clean by
+ removing all imported symbols at the end of the current package's compile
+ cycle. Perhaps most importantly, this means that imported functions will no
+ longer be made accidentally accessible to users outside of your package via
+ method invocations.
+ .
+ This module differs from namespace::clean (see libnamespace-clean-perl) in
+ that it cleans all imported functions, whether or not the imports happened
+ prior to using the pragma. Things that "look" like a method (according to
+ Class::MOP) will be left alone.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libnet-cups-perl
+Version: 0.64-1build4
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 256
+Depends: perl, perlapi-5.34.0, libc6 (>= 2.34), libcups2 (>= 1.6.0)
+Suggests: cups-common
+Filename: pool/main/libnet-cups-perl_0.64-1build4_amd64.deb
+Size: 52484
+MD5sum: 1786b72bce85d5c9397517ba35d253fb
+SHA1: 0ce7bb1f7c14fbfcfb323294bc221a0b79ec5146
+SHA256: e0227750d26a0f9f8bd5faa21aef56b26128049fd5046ce317a5b9deff6de845
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/Net-CUPS
+Description: Perl module for printing through CUPS
+ Net::CUPS is a Perl module that provides an object-oriented interface to the
+ Common Unix Printing System (CUPS). It supports retrieving information such
+ as names of all configured printers, authenticating with username/password
+ credentials, and various other utilities for manipulating the CUPS daemon.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libnet-ip-perl
+Version: 1.26-2ubuntu0.22.04.1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 103
+Depends: perl:any
+Filename: pool/main/libnet-ip-perl_1.26-2ubuntu0.22.04.1_all.deb
+Size: 28482
+MD5sum: 11f09e59a028840031ba9dcd15d6da8d
+SHA1: 2ca25e097ac00e6583b0b11f5dc524f6eea4fd15
+SHA256: 2c4fb7f2001f3e539f8327b2ebb46885f0957b7266e0be3d4e040378e26c9bfa
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/Net-IP
+Description: Perl extension for manipulating IPv4/IPv6 addresses
+ Net::IP provides functions to deal with IPv4/IPv6 addresses.
+ The module can be used as a class, allowing the user to instantiate IP
+ objects, which can be single IP addresses, prefixes, or ranges of addresses.
+ There is also a procedural way of accessing most of the functions. Most
+ subroutines can take either IPv4 or IPv6 addresses transparently.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libnet-ssh2-perl
+Version: 0.72-3build1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 303
+Depends: perl, perlapi-5.34.0, libc6 (>= 2.34), libgcrypt20 (>= 1.9.0), libssh2-1 (>= 1.7.0)
+Recommends: libterm-readkey-perl
+Filename: pool/main/libnet-ssh2-perl_0.72-3build1_amd64.deb
+Size: 106528
+MD5sum: 1c8e25dd3d09e79538a04b473af6d111
+SHA1: b7d5d2c37f9ca9e73539daaf398917368f34c180
+SHA256: e8f5b8709f2135fe0050bda5d10824f1017b26f8461c1653be7ee5010ce16d79
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/Net-SSH2
+Description: Perl module for the SSH 2 protocol
+ Net::SSH2 is a perl interface to the libssh2 (http://www.libssh2.org)
+ library. It supports the SSH2 protocol (there is no support for SSH1) with
+ all of the key exchanges, ciphers, and compression of libssh2.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libopenh264-6
+Source: openh264
+Version: 2.2.0+dfsg-2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1056
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5)
+Filename: pool/main/libopenh264-6_2.2.0+dfsg-2_amd64.deb
+Size: 406866
+MD5sum: 123d89f59911ca10d0ff7d57f3725c11
+SHA1: f824405ef6fc7145a7cca3da655f53dafda7fcf6
+SHA256: 97702c1241d195ac96afdf77503235b6d4f1a66425cf569b690cb6a40d452e1d
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.openh264.org
+Description: OpenH264 Video Codec
+ OpenH264 is a codec library which supports H.264 encoding and decoding.
+ It is suitable for use in real time applications such as WebRTC.
+Original-Maintainer: Bastian Germann <bage@debian.org>
+
+Package: libossp-uuid-perl
+Source: ossp-uuid
+Version: 1.6.2-1.5build9
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 85
+Depends: libc6 (>= 2.34), libossp-uuid16, perl, perlapi-5.34.0
+Conflicts: libdata-uuid-perl
+Replaces: libdata-uuid-perl
+Provides: libdata-uuid-perl
+Filename: pool/main/libossp-uuid-perl_1.6.2-1.5build9_amd64.deb
+Size: 19686
+MD5sum: 781e93980f88ce2c62cb11e55be2af37
+SHA1: ab94146f8a1a44ac63172e98ac49e1fd841b7f0e
+SHA256: ab865eaaa9e3b0d6ee1dc69429a150c28eb8b5bbcb8e9adb3cad3be0d455e9d5
+Section: perl
+Priority: optional
+Homepage: http://www.ossp.org/pkg/lib/uuid/
+Description: perl OSSP::UUID - OSSP uuid Perl Binding
+ OSSP uuid is an ISO-C and Perl application programming interface (API)
+ and corresponding command line interface (CLI) for the generation of
+ DCE 1.1 and ISO/IEC 11578:1996 compliant Universally Unique Identifier
+ (UUID). It supports DCE 1.1 variant UUIDs of version 1 (time and node
+ based), version 3 (name based) and version 4 (random number based).
+ .
+ UUIDs are 128 bit numbers which are intended to have a high likelihood
+ of uniqueness over space and time and are computationally difficult
+ to guess. They are globally unique identifiers which can be locally
+ generated without contacting a global registration authority. UUIDs
+ are intended as unique identifiers for both mass tagging objects
+ with an extremely short lifetime and to reliably identifying very
+ persistent objects across a network.
+ .
+ OSSP::uuid provides two Perl APIs:
+ .
+ The OO-style API is a wrapper around the C-style API and intended for
+ high-level and regular programming.
+ .
+ The C-style API is a direct mapping of the OSSP uuid ISO-C API to Perl and
+ is intended for low-level programming.
+ .
+ The Debian package provides also Data::UUID interface so OSSP::uuid can be
+ used as free replacement for non-DFSG Perl module.
+Original-Maintainer: Marco Nenciarini <mnencia@debian.org>
+
+Package: libossp-uuid16
+Source: ossp-uuid
+Version: 1.6.2-1.5build9
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 132
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 5)
+Suggests: uuid
+Filename: pool/main/libossp-uuid16_1.6.2-1.5build9_amd64.deb
+Size: 31420
+MD5sum: feaa88609cb153cd1128b351ea7d92da
+SHA1: 1a4955ffd9d989fa5ad028c0323313a95758d6fb
+SHA256: 9800af6b6f62f8e078e2ba6f7a34cd16f45232bb41c397f49e79aef337f1cb5b
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.ossp.org/pkg/lib/uuid/
+Description: OSSP uuid ISO-C and C++ - shared library
+ OSSP uuid is an ISO-C and Perl application programming interface (API)
+ and corresponding command line interface (CLI) for the generation of
+ DCE 1.1 and ISO/IEC 11578:1996 compliant Universally Unique Identifier
+ (UUID). It supports DCE 1.1 variant UUIDs of version 1 (time and node
+ based), version 3 (name based) and version 4 (random number based).
+ .
+ UUIDs are 128 bit numbers which are intended to have a high likelihood
+ of uniqueness over space and time and are computationally difficult
+ to guess. They are globally unique identifiers which can be locally
+ generated without contacting a global registration authority. UUIDs
+ are intended as unique identifiers for both mass tagging objects
+ with an extremely short lifetime and to reliably identifying very
+ persistent objects across a network.
+ .
+ This package contains the shared library.
+Original-Maintainer: Marco Nenciarini <mnencia@debian.org>
+
+Package: libpadwalker-perl
+Version: 2.5-1build2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 53
+Depends: perl, perlapi-5.34.0, libc6 (>= 2.4)
+Filename: pool/main/libpadwalker-perl_2.5-1build2_amd64.deb
+Size: 15892
+MD5sum: 2b0b8dc0c0e7e8e3d31bf0cd498580ed
+SHA1: ad3e97bac24f4219c7aceec6806acab7795f6959
+SHA256: 7cf4f3d4220a97fd77da81d4ce45fb9326f92628a27f30ecb1663b7bf20723b4
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/PadWalker
+Description: module to inspect and manipulate lexical variables
+ PadWalker is a module that allows you to inspect and even modify lexical
+ variables in the current "lexical pad stack." Perl tracks which variables
+ are accessible and visible in each lexical scope by keeping a separate
+ set of variables for each scope. This module looks for a given variable
+ by traversing that stack, which allows it to alter anything in the stack,
+ even variables not normally accessible in the current scope.
+ .
+ In practise, this module is useful for checking anything defined in the full
+ stack of subroutines that called your function, making it extremely useful
+ for debugging. It is, however, not recommended for use in production code.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libpangox-1.0-0
+Source: pangox-compat
+Version: 0.0.2-5ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 153
+Depends: libc6 (>= 2.4), libglib2.0-0 (>= 2.34.0), libpango-1.0-0 (>= 1.32.5-3~), libx11-6
+Breaks: libpango1.0-0 (<< 1.32.5-2)
+Replaces: libpango1.0-0 (<< 1.32.5-2)
+Filename: pool/main/libpangox-1.0-0_0.0.2-5ubuntu1_amd64.deb
+Size: 41876
+MD5sum: 405b99720381fccd2d7903262b7ccd72
+SHA1: 2db7b9ace72e4f9c68ced10eee68ce317ff303ee
+SHA256: 3151df7b30828d0bd9df1ca03d080ab1c260463df20ac9ac0e5207342c45b836
+Section: oldlibs
+Priority: extra
+Multi-Arch: same
+Description: pango library X backend
+ Pango is a library for layout and rendering of text, with an emphasis
+ on internationalization. Pango can be used anywhere that text layout is
+ needed. however, most of the work on Pango-1.0 was done using the GTK+
+ widget toolkit as a test platform. Pango forms the core of text and
+ font handling for GTK+-2.0.
+ .
+ Pango is designed to be modular; the core Pango layout can be used with
+ four different font backends:
+  - Core X windowing system fonts
+  - Client-side fonts on X using the Xft library
+  - Direct rendering of scalable fonts using the FreeType library
+  - Native fonts on Microsoft backends
+ .
+ This package contains the Core X backend.
+Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+
+Package: libparallel-forkmanager-perl
+Version: 2.02-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 70
+Depends: perl, libmoo-perl
+Filename: pool/main/libparallel-forkmanager-perl_2.02-1_all.deb
+Size: 27748
+MD5sum: 7ec1e89bdc3fbb5fc196dddcc817ddff
+SHA1: 9366f419c996110625d6ef0cecab982341f6d60b
+SHA256: 2cdcda5ec56979aa289a8e20a3dd56e994bcd2ac16783154834d3e15315480d3
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/Parallel-ForkManager
+Description: simple parallel processing fork manager for Perl
+ Parallel::ForkManager Perl module is intended for use in operations that can
+ be done in parallel where the number of processes to be forked off should be
+ limited. Typical use is a downloader which will be retrieving
+ hundreds/thousands of files.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libparams-validationcompiler-perl
+Version: 0.30-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 89
+Depends: perl, libeval-closure-perl, libexception-class-perl, perl (>= 5.19.3) | libscalar-list-utils-perl (>= 1:1.29)
+Recommends: libclass-xsaccessor-perl
+Filename: pool/main/libparams-validationcompiler-perl_0.30-1_all.deb
+Size: 28852
+MD5sum: bfa63c4b75428f3dff048d284104d19e
+SHA1: cff11eb36d7342f50a6c33c412bb55d0723c9120
+SHA256: 9c4948a1869c8e0d834746d8bb72f887fb95fc5e72e396746370a567010aed4c
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/Params-ValidationCompiler
+Description: module to build an optimized subroutine parameter validator
+ Params::ValidationCompiler creates a customized, highly efficient parameter
+ checking subroutine. It can handle named or positional parameters, and can
+ return the parameters as key/value pairs or a list of values.
+ .
+ In addition to type checks, it also supports parameter defaults, optional
+ parameters, and extra "slurpy" parameters.
+ .
+ A parameter specification can be provided as either an arrayref (which expects
+ positional params) or a hashref (which expects named params). Parameter types
+ can be specified as Moose, Type::Tiny or Specio type objects. Parameters can
+ be specified as being optional and can be provided with default values.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libparse-edid-perl
+Version: 1.0.7-1.1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 45
+Depends: perl:any
+Filename: pool/main/libparse-edid-perl_1.0.7-1.1_all.deb
+Size: 11244
+MD5sum: 9a2f9e2f38560ced743db93e1586c035
+SHA1: a25c7ad360b693df31ae69978fae5f9c6cf7f649
+SHA256: 21936589e5b5e22b8fcf9181fd713bf71a843c84df7b729ad13535f0b6520c11
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/Parse-EDID
+Description: extended display identification data (EDID) parser
+ The Parse::EDID perl module provides some functions to parse Extended
+ Display Identification Data binary data structures.
+ .
+ Extended Display Identification Data (EDID) is a metadata format for
+ display devices to describe their capabilities to a video source. The
+ data format is defined by a standard published by the Video Electronics
+ Standards Association (VESA).
+ .
+ This module helps to analyse display devices capabilities from perl
+ scripts.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libproc-daemon-perl
+Version: 0.23-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 58
+Depends: libproc-processtable-perl, perl
+Filename: pool/main/libproc-daemon-perl_0.23-1_all.deb
+Size: 19516
+MD5sum: 120ac52fe85992b2b68fb9e59dd33828
+SHA1: 7f82e4422c8ac454f179ad63f767fea9f6d0999f
+SHA256: ec10d90ed3edf4ecc9b978e96bc48acc297af7f6d43c881c2f6c5207b557c203
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/Proc-Daemon
+Description: module for running scripts as daemons
+ Proc::Daemon can be used by a Perl program to initialize itself as a daemon
+ (a background process with no controlling terminal). You can also check the
+ status of the daemon (alive or dead) and you can kill the daemon.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libref-util-perl
+Version: 0.204-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 43
+Depends: perl
+Recommends: libreadonly-perl, libref-util-xs-perl
+Filename: pool/main/libref-util-perl_0.204-1_all.deb
+Size: 15000
+MD5sum: 5f6b30f4fecc32e295d8f32ca247513a
+SHA1: 469209a46abec2b4eb071668023fd59ced9af3f4
+SHA256: a72a2c99670014fef9bc03ce5c8f7d13a3d19ad4d0acafff12b946ac52d96280
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/Ref-Util
+Description: set of utility functions for checking references
+ Ref::Util introduces several functions to help identify references in a
+ faster and smarter way. In short:
+ .
+  ref $foo eq 'ARRAY'
+  # is now:
+  is_arrayref($foo)
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libref-util-xs-perl
+Version: 0.117-1build5
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 62
+Depends: perl, perlapi-5.34.0
+Enhances: libref-util-perl
+Filename: pool/main/libref-util-xs-perl_0.117-1build5_amd64.deb
+Size: 12722
+MD5sum: 123d56d081e22a8f9860f0ceab791d6c
+SHA1: fe4abd1ebecf8d7a95763b80f78f365220729908
+SHA256: 79ed2eab6f7d56f11173e86de0b0ec00a3e0bc2d59d9eb4945fd24f285abaf1d
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/Ref-Util-XS
+Description: XS implementation for Ref::Util
+ Ref::Util::XS is the XS implementation of Ref::Util, which provides several
+ functions to help identify references in a more convenient way than the usual
+ approach of examining the return value of ref.
+ .
+ You should use Ref::Util::XS by installing Ref::Util itself (packaged as
+ libref-util-perl): If the system doesn't have Recommends turned off, you will
+ get libref-util-xs-perl automatically. Ref::Util::XS will be used
+ automatically, providing a significant speed boost to everything that uses
+ Ref::Util.
+ .
+ See Ref::Util for full documentation of the available functions.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libsocket-getaddrinfo-perl
+Version: 0.22-3
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 85
+Depends: perl (>= 5.13.9)
+Suggests: dnsutils
+Filename: pool/main/libsocket-getaddrinfo-perl_0.22-3_all.deb
+Size: 36042
+MD5sum: 0717fb6f1e564dc36e47ff7432717aee
+SHA1: f0d0118d66fd9d6cfd496090709880030c2ca467
+SHA256: 66b8c6cdff2e26796d10d17de45e1c8f13dcd0bdff4954d5745a61f93915df37
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/Socket-GetAddrInfo
+Description: module implementing getaddrinfo and getnameinfo
+ Socket::GetAddrInfo provides a Perl implementation of the getaddrinfo and
+ getnameinfo functions as described in RFC 2553. These functions are useful for
+ converting between a pair of host name/service name and socket addresses, or
+ vice versa.
+ .
+ This module uses underlying C code to do most of the work if possible, but can
+ also fall back on some mostly-compatible emulation code written in Perl. This
+ means that this module is a fairly portable implementation of these functions.
+ .
+ As of Perl version 5.14.0, Perl already supports `getaddrinfo' in core. On
+ such a system, this module simply uses the functions provided by `Socket',
+ and does not need to use its own compiled XS, or pure-perl legacy emulation.
+ .
+ As `Socket' in core now provides all the functions also provided by this
+ module, it is likely this may be the last released version of this module.
+ And code currently using this module would be advised to switch to using core
+ `Socket' instead.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libspecio-perl
+Version: 0.47-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 416
+Depends: perl:any, libdevel-stacktrace-perl, libeval-closure-perl, libmodule-runtime-perl, libmro-compat-perl, librole-tiny-perl, libsub-quote-perl, libxstring-perl
+Recommends: libref-util-perl
+Suggests: libtest-fatal-perl, libtry-tiny-perl
+Filename: pool/main/libspecio-perl_0.47-1_all.deb
+Size: 139864
+MD5sum: fff4358ac432120cdab194f482707ed0
+SHA1: b5d87085834c4a5b69f9875f6a02842d621d11d2
+SHA256: 7f5a8d85d9edda5a3723d921faef630f25c90212c0ab434f01b828e5f32d938a
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/Specio
+Description: Perl module providing type constraints and coercions
+ Specio provides classes for representing type constraints and coercion,
+ along with the syntactic sugar for declaring them.
+ .
+ This distribution ships with a set of builtin types representing the types
+ provided by the Perl interpreter itself.
+ .
+ Note that this is not a proper type system for Perl. Nothing in this
+ distribution will magically make the Perl interpreter start checking a value's
+ type on assignment to a variable.
+ .
+ Module Test::Specio requires the packages libtest-fatal-perl
+ libtry-tiny-perl.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libtext-template-perl
+Version: 1.60-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 111
+Depends: perl:any
+Filename: pool/main/libtext-template-perl_1.60-1_all.deb
+Size: 49408
+MD5sum: ab29fc5df76a31a13f72095bcf42f87a
+SHA1: 6fee28f22d6d42668da97f1d0940ae54a8b55327
+SHA256: 83df6ca013cc1511701be9c0be3a49bc433b67d2bdbadb756a5cab1e2cd01aca
+Section: perl
+Priority: optional
+Multi-Arch: foreign
+Homepage: https://metacpan.org/release/Text-Template
+Description: perl module to process text templates
+ Text::Template is a library for generating form letters, building
+ HTML pages, or filling in templates generally. A `template' is a
+ piece of text that has little Perl programs embedded in it here and
+ there. When you `fill in' a template, you evaluate the little
+ programs and replace them with their values.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libuniversal-require-perl
+Version: 0.19-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 23
+Depends: perl:any
+Replaces: libuniversal-exports-perl
+Filename: pool/main/libuniversal-require-perl_0.19-1_all.deb
+Size: 9236
+MD5sum: 363178138638c7e994218a4e23637b19
+SHA1: 061fa8514126feed11ee5ac83b307b14dbf27ed8
+SHA256: 69adf9d56a56d94ec12349b1d8699df7e0a6e593a790cb06fdb6c721583bc1b3
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/UNIVERSAL-require
+Description: Load modules from a variable (deprecated)
+ This works exactly like the standard require in Perl, except without
+ the bareword restriction, and it does not die.  Since require() is
+ placed in the UNIVERSAL namespace, it will work on any module.  You
+ just have to use UNIVERSAL::require somewhere in your code.
+ .
+ If you have ever had to do this...
+ .
+    eval "require $module";
+ .
+ to get around the bareword caveats on require(), this module is for
+ you. It creates a universal require() class method that will work
+ with every Perl module and it is secure. So instead of doing some
+ arcane eval() work, you can do this:
+ .
+    $module->require;
+ .
+ It does not save you much typing, but it will make a lot more sense
+ to someone who is not a ninth level Perl acolyte.
+ .
+ Also provided is a use() method which works in a similar way.
+ .
+ NOTE that UNIVERSAL::require is considered deprecated by its author, who
+ suggestest to look at a number of better suited and more actively maintained
+ alternatives discussed in the POD's "SEE ALSO" section.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libxnvctrl0
+Source: nvidia-settings
+Version: 510.47.03-0ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu MOTU Developers <ubuntu-motu@lists.ubuntu.com>
+Installed-Size: 65
+Depends: libc6 (>= 2.14), libx11-6 (>= 2:1.4.99.1), libxext6
+Filename: pool/main/libxnvctrl0_510.47.03-0ubuntu1_amd64.deb
+Size: 11458
+MD5sum: fa961966b93955425ecadcaacaf9eef1
+SHA1: aa6d92c4ac57f01a28567ec40df49b242fec643d
+SHA256: 2b423c6cec310a982018974646cdded0e028d3fbca56ce9fac95678d069f0cf8
+Section: libs
+Priority: optional
+Multi-Arch: same
+Description: NV-CONTROL X extension (runtime library)
+ The NV-CONTROL X extension provides a mechanism for X clients to
+ query and set configuration parameters of the NVIDIA X driver.
+ State set by the NV-CONTROL X extension is assumed to be persistent
+ only for the current server generation.
+ .
+ This package contains the shared library.
+Original-Maintainer: Debian NVIDIA Maintainers <pkg-nvidia-devel@lists.alioth.debian.org>
+
+Package: libxstring-perl
+Version: 0.005-1build2
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 41
+Depends: perl, perlapi-5.34.0, libc6 (>= 2.34)
+Filename: pool/main/libxstring-perl_0.005-1build2_amd64.deb
+Size: 8076
+MD5sum: 8df9350dd529c481c5b5c352c07a290f
+SHA1: 91bdac3b519587aa0c5fd7e7c752dd13d2d86925
+SHA256: 14f23ae4f08dc951cfdf666621d59238e5ca027e393cba4e35a8eb6ce08eeb28
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/XString
+Description: module containing isolated string helpers from B
+ The extremely lightweight XString module provides the string helpers from
+ the much larger B module (Perl compiler backend) in an isolated package.
+ .
+ Currently the cstring and perlstring helpers are available.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libyaml-perl
+Version: 1.30-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 173
+Depends: perl:any
+Recommends: libyaml-libyaml-perl | libyaml-syck-perl
+Suggests: libyaml-shell-perl
+Filename: pool/main/libyaml-perl_1.30-1_all.deb
+Size: 58172
+MD5sum: 3392b26a7eb22a8f81673edea14fbc2e
+SHA1: 04e3f8ad2c658c12192bdecd018d055b6377c25d
+SHA256: 91fadf0a8412c31b3b58140ce16dd99122af007d653360e795e309f0075db354
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/YAML
+Description: YAML Ain't Markup Language
+ YAML is a generic data serialization language that is optimized for human
+ readability. It can be used to express the data structures of most modern
+ programming languages (including Perl, of course). YAML supports Unicode
+ and there are implementations of the parser in many different languages,
+ making it a rather portable serialization format.
+ .
+ Please note that the YAML module is currently a deprecated implementation
+ in Pure Perl, which is probably slow on your system. The authors intend
+ to change it to just be a front-end interface module for various YAML
+ implementations. For now, YAML::Any is a module provided for this purpose,
+ which simply selects the best YAML implementation available.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: libyaml-tiny-perl
+Version: 1.73-1
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 70
+Depends: perl
+Filename: pool/main/libyaml-tiny-perl_1.73-1_all.deb
+Size: 25208
+MD5sum: eb7bef4cb50dc1b65b5edf1e752548ae
+SHA1: 3605cc189582125f8a841fab5158319eeff3c892
+SHA256: d598ddc465ba9b8f075ac3b423749c5b26c5ae67f8b81fe522d08b7a7e2ba9db
+Section: perl
+Priority: optional
+Homepage: https://metacpan.org/release/YAML-Tiny
+Description: Perl module for reading and writing YAML files
+ YAML::Tiny is a pure Perl module that provides support for reading and
+ writing a usable subset of the full YAML specification. It aims to
+ minimize memory requirements and avoid XS while remaining relatively
+ fast.
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+
+Package: lliurex-gva-presets
+Version: 0.2.8
+Architecture: all
+Maintainer: Raul Rodrigo Segura <raurodse@gmail.com>
+Installed-Size: 15
+Depends: cdc, llx-guest (>= 0.42), zero-lliurex-chromium, lliurex-wifi-gva-control-cli (>= 1.15.10)
+Filename: pool/main/lliurex-gva-presets_0.2.8_all.deb
+Size: 3082
+MD5sum: 0b075002334df375e116d081f66bef00
+SHA1: 3f86e7695155f72c5763802d395dedbbb9deacbb
+SHA256: 31b2b6e6b90ecd43047f8047c3cd524f7823cb43f6a836753f5ef07b82327914
+Section: admin
+Priority: optional
+Homepage: https://lliurex.net
+Description: System configurations according to the needs of the GVA
+ Enable CDC and guest user
+
+Package: lliurex-inventory-agent
+Source: lliurex-inventory
+Version: 1.0.6
+Architecture: amd64
+Maintainer: Equipo LliureX <lliurex@gva.es>
+Installed-Size: 27
+Depends: glpi-agent (>= 1.15-1), iproute2, network-manager
+Conflicts: fusioninstall (<< 1.0), fusioninventory-agent, fusioninventory-agent-task-deploy, fusioninventory-agent-task-esx, fusioninventory-agent-task-network
+Filename: pool/main/lliurex-inventory-agent_1.0.6_amd64.deb
+Size: 6648
+MD5sum: 3d941cbd1b3501ca21990c238890fc25
+SHA1: 6e243ef962aa2c40832913eb0bd31cd6c3d8c6e7
+SHA256: 087f6d4370b47a64fbcebe8feead2652706116e0b19f163ba32b5f4d136f2c9a
+Section: x11
+Priority: optional
+Description: LliureX hardware and software inventory client
+ The package installs required dependencies and configurations for the operation
+ of GLPI agent within the GVA network of educational centres.
+ .
+ LliureX inventory management facilitates the support and maintenance of
+ the educational centres' equipment.
+
+Package: lliurex-meta-gva
+Source: lliurex-meta
+Version: 23.25.12.11.3
+Architecture: amd64
+Maintainer: LliureX Team <lliurex@gva.es>
+Installed-Size: 21
+Depends: acipu, lliurex-gva-presets, register-service-client, register-service-gvasrv1-fix
+Recommends: anydesksai, lliurex-inventory-agent, lliurex-ms-teams, zero-lliurex-chromium
+Filename: pool/main/lliurex-meta-gva_23.25.12.11.3_amd64.deb
+Size: 9382
+MD5sum: 1b6b5f59e713a41507a60a342d5151c8
+SHA1: 7f2210e3ae6206cb3a4dd760f35c8e14936598ab
+SHA256: ff539a745554a8362b5c10fafa48408e6743b3ea71a40b01001827958140fc40
+Section: admin
+Priority: optional
+Homepage: https://lliurex.net
+Description: MetaPackage with gva configuration packages
+ List of all packages for lliurex
+
+Package: lliurex-ms-teams
+Version: 0.12.1
+Architecture: all
+Maintainer: Equipo LliureX <lliurex@gva.es>
+Installed-Size: 57
+Filename: pool/main/lliurex-ms-teams_0.12.1_all.deb
+Size: 23560
+MD5sum: bf112657661d5455e7130838b06dc63d
+SHA1: 0b106857e192f80fe8f47f3b5ac861dc93815f72
+SHA256: 949c909890e776e1740da8d47f26e29ffc288071b6e11c0c729bdf4df10c0e55
+Section: network
+Priority: standard
+Homepage: http://lliurex.net
+Description: LliureX MS Teams utility
+  This package allows to launch MS Teams with chromium browser in app mode
+
+Package: python3-all
+Source: python3-defaults
+Version: 3.10.6-1~22.04.1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 6
+Depends: python3 (= 3.10.6-1~22.04.1), python3-distutils (>= 3.10.6-1~), python3.10
+Filename: pool/main/python3-all_3.10.6-1~22.04.1_amd64.deb
+Size: 902
+MD5sum: fa78aacf4fb1c0d6d4a311eb93905495
+SHA1: 603c0bb8715ebebe306541143929ab97e512cdb0
+SHA256: bd1cd48aa56d75bbda808a3ea2deb9c8a2369a3e87df7a0ae17c5c17d453021a
+Section: python
+Priority: optional
+Multi-Arch: allowed
+Homepage: https://www.python.org/
+Description: package depending on all supported Python 3 runtime versions
+ The package currently depends on python3.10, in the future,
+ dependencies on jython (Python for a JVM) and ironpython (Python for Mono)
+ may be added.
+ .
+ This package is a dependency package used as a build dependency for other
+ packages to avoid hardcoded dependencies on specific Python 3 runtimes.
+Original-Maintainer: Matthias Klose <doko@debian.org>
+
+Package: register-service-client
+Version: 0.2.2+jammy
+Architecture: amd64
+Maintainer: M.Angel Juan <m.angel.juan@gmail.com>
+Installed-Size: 66
+Depends: python3, python3-all, iproute2, dmidecode, lsb-release, systemd, sudo
+Filename: pool/main/register-service-client_0.2.2+jammy_amd64.deb
+Size: 13126
+MD5sum: e004a90766b8f7405436495005203cff
+SHA1: 51cd516eeb72c9af5f502fccd5bac3ec811c9af0
+SHA256: b0e01ad2121af2825b2e97da7ef0eec61c803f92e031c7d7de8578ae60d4e729
+Section: utils
+Priority: optional
+Homepage: http://github.com/lliurex
+Description: Configures as a client of gva's administered network
+ Configure salt-client and register this machine
+ on gva's remotely administered network.
+
+Package: register-service-gvasrv1-fix
+Version: 0.2+jammy
+Architecture: all
+Maintainer: M.Angel Juan <m.angel.juan@gmail.com>
+Installed-Size: 11
+Pre-Depends: register-service-client (>= 0.2.1), acipu (>= 0.2.1)
+Filename: pool/main/register-service-gvasrv1-fix_0.2+jammy_all.deb
+Size: 2408
+MD5sum: 0c6e0cc3cdbb3666e9a76e7c80733dc6
+SHA1: 57eca73b0568f6973e2c7413f20f51454113b473
+SHA256: 2ca6a59a80d811983c6447f76a6d4e7b0dfc7e8ce74919493bc35600847d30f3
+Section: utils
+Priority: optional
+Homepage: https://github.com/lliurex
+Description: Setup GVA server for register-service-client
+ Setup GVA server for register-service-client
+
+Package: shim
+Version: 15.8-0ubuntu1
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 25
+Breaks: shim-signed (<< 1.33~)
+Filename: pool/main/shim_15.8-0ubuntu1_amd64.deb
+Size: 10112
+MD5sum: a0e7f8dd65996f5ec361c00ae0dc504c
+SHA1: 99de1d3e92c15dd7756c188489f4fc961a0845b6
+SHA256: a9eb2b07e80bb2e347944946e1512055cbee0c67693e6e91a89590553955c00a
+Section: admin
+Priority: optional
+Description: boot loader to chain-load signed boot loaders under Secure Boot
+ This package provides a minimalist boot loader which allows verifying
+ signatures of other UEFI binaries against either the Secure Boot DB/DBX or
+ against a built-in signature database.  Its purpose is to allow a small,
+ infrequently-changing binary to be signed by the UEFI CA, while allowing
+ an OS distributor to revision their main bootloader independently of the CA.
+Original-Maintainer: Steve Langasek <vorlon@debian.org>
