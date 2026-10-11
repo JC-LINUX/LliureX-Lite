@@ -1,0 +1,4 @@
+#define DISKNAME  LliureX-Lite 26.01LTS "Jammy Jellyfish"
+#define DISKNOTE  Generated using Cubic version 2026.09.110 on 2026-10-11 04:52 based on LliureX-desktop_64bits_23_20260216.iso
+#define ARCH  amd64
+#define ARCHamd64  1
